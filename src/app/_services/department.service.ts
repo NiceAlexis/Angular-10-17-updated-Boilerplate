@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
     providedIn: 'root',
 })
 export class DepartmentService {
-    private baseUrl = 'https://node-js-mysql-boilerplate-api-nbm1.onrender.com/accounts/departments'; // Updated to match the new API endpoint
+    private baseUrl = 'https://node-js-mysql-boilerplate-api-nbm1.onrender.com/departments'; // Updated to match the new API endpoint
 
     constructor(private http: HttpClient) { }
 
